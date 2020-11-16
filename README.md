@@ -1,4 +1,4 @@
-# Project Estimator of ScrumSourcing
+# Skill Finder of ScrumSourcing
  
 ## Project setup
  ### Ruby on Rails
