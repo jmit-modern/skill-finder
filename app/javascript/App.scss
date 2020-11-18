@@ -19,8 +19,15 @@ body{
 button.MuiButtonBase-root{
   margin: 15px;
 }
-a.MuiButtonBase-root{
-  margin: 15px;
+a.MuiButton-containedPrimary{
+  margin: 15px
+}
+button.MuiPickersDay-day{
+  margin: 0;
+}
+
+.MuiButton-containedPrimary:hover{
+  color: #fff;
 }
 .question{
   margin-bottom: 2em;
@@ -34,15 +41,10 @@ a.MuiButtonBase-root{
   margin-bottom: 1em;
 }
 
-a.MuiButtonBase-root:hover{
-  color: #ffffff;
-}
-
 img {
   vertical-align: middle;
   border-style: none;
 }
-
 .dropup, .dropright, .dropdown, .dropleft {
   position: relative;
 }
@@ -198,4 +200,23 @@ img {
   .MuiTableCell-head{
     color: #fff;
   }
+}
+
+.rdrMonth{
+  width: 20rem;
+}
+.rdrDay{
+  line-height: 2rem;
+  height: 2rem;
+}
+.rdrMonthAndYearWrapper{
+  padding-top: 0;
+}
+
+.rdrMonthName {
+  padding: 0 0.833em 0.5em;
+}
+
+.company_info li{
+  line-height: 1.875em;
 }

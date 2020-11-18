@@ -4,12 +4,12 @@ production:
   pool: <%= ENV["DB_POOL"] || ENV['RAILS_MAX_THREADS'] || 20 %>
   adapter: postgresql
   encoding: unicode
-  database: project_estimator
+  database: skill_finder
 
 development:
   adapter: postgresql
   encoding: unicode
-  database: project_estimator_dev
+  database: skill_finder_dev
   pool: 5
   username: test
   password: test
@@ -20,7 +20,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: project_estimator_test
+  database: skill_finder_test
   pool: 5
   username: test
   password: test

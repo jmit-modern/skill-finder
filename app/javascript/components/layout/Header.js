@@ -16,7 +16,7 @@ class Header extends React.Component {
           <Grid container justify="space-between" alignItems="baseline">
             <Grid item>
             <Link href="/" className="website_title">
-              <h1>Project Estimator</h1>
+              <h1>SKill Finder</h1>
             </Link>
               
             </Grid>
